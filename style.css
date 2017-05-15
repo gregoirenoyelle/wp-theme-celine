@@ -1699,6 +1699,7 @@ p.entry-meta {
 	.menu-toggle:focus,
 	.menu-toggle:hover {
 		border-top: 1px solid #eee;
+		background-color: #efcddb;
 	}
 
 	.menu-toggle::before {
@@ -1714,6 +1715,7 @@ p.entry-meta {
 		right: 0;
 		top: 0;
 		z-index: 100;
+		background-color: #efcddb;
 	}
 
 	.sub-menu .sub-menu-toggle {
@@ -1841,6 +1843,12 @@ p.entry-meta {
 		width: 100%;
 	}
 
+}
+
+@media screen and (max-width: 450px) {
+	.header-image .site-title > a {
+		min-height: 80px;
+	}
 }
 
 
