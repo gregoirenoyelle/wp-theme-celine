@@ -10,6 +10,11 @@
  * @link    http://www.studiopress.com/
  */
 
+function gn_ajouter_styles_editeur() {
+    add_editor_style( 'editor-style.css' );
+}
+add_action( 'init', 'gn_ajouter_styles_editeur' );
+
 // Start the engine.
 include_once( get_template_directory() . '/lib/init.php' );
 
