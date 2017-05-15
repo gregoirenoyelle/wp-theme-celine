@@ -1242,6 +1242,26 @@ img.alignright,
 	border-top: 1px solid #eee;
 }
 
+.menu-primary {
+	display: flex;
+	justify-content: center;
+}
+
+.menu-primary .menu-item {
+	text-align: center;
+	border-right: 1px solid #d1d0d0;
+
+}
+
+.menu-primary .menu-item:last-child {
+	border-right: initial;
+
+}
+
+.menu-primary .menu-item > a {
+	padding: 23px 40px;
+}
+
 /* ## Footer Navigation
 --------------------------------------------- */
 
