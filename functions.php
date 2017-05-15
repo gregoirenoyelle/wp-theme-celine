@@ -49,7 +49,7 @@ define( 'CHILD_THEME_VERSION', '2.3.0' );
 add_action( 'wp_enqueue_scripts', 'genesis_sample_enqueue_scripts_styles' );
 function genesis_sample_enqueue_scripts_styles() {
 
-	wp_enqueue_style( 'genesis-sample-fonts', '//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'genesis-sample-fonts', '//fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:400,500', array(), CHILD_THEME_VERSION );
 	wp_enqueue_style( 'dashicons' );
 
 	$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
@@ -148,4 +148,13 @@ function genesis_sample_comments_gravatar( $args ) {
 
 	return $args;
 
+}
+
+// footer changer Copyright test
+add_filter('genesis_footer_creds_text', 'celined_texte_copyright');
+function celined_texte_copyright($creds) {
+$creds = "Copyright [footer_copyright]";
+return $creds;
+	$creds = 'Copyright [footer_copyright] | Céline Deflers';
+	return $creds;
 }
