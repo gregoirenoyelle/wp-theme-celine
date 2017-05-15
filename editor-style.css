@@ -43,3 +43,7 @@
 .mceContentBody .wp-smiley {
     margin:0;
 }
+
+.mceContentBody :focus {
+	border: none;
+}
