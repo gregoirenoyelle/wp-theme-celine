@@ -1088,6 +1088,7 @@ img.alignright,
 .header-image .title-area {
     max-width: 371px;
     padding: 0;
+    position: relative;
 }
 
 .header-image .site-title > a {
