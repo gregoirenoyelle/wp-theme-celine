@@ -93,12 +93,13 @@ add_theme_support( 'genesis-accessibility', array( '404-page', 'drop-down-menu',
 add_theme_support( 'genesis-responsive-viewport' );
 
 // Add support for custom header.
+// 742 × 249
 add_theme_support( 'custom-header', array(
-	'width'           => 600,
-	'height'          => 160,
+	'width'           => 742,
+	'height'          => 249,
 	'header-selector' => '.site-title a',
 	'header-text'     => false,
-	'flex-height'     => true,
+	'flex-height'     => false,
 ) );
 
 // Add support for custom background.
