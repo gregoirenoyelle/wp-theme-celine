@@ -1103,10 +1103,15 @@ img.alignright,
 	margin-bottom: 0;
 }
 
-.header-image .site-description,
 .header-image .site-title {
 	display: block;
 	text-indent: -9999px;
+}
+
+.site-description {
+	position: absolute;
+	color: #555354;
+	top: 78px;
 }
 
 /* ## Widget Area
