@@ -1628,6 +1628,15 @@ p.entry-meta {
 		margin: 16px auto;
 	}
 
+
+	.footer-widgets-1,
+	.footer-widgets-2 {
+		margin: 0 auto 40px;
+	}
+
+}
+
+@media only screen and (max-width: 950px) {
 	/* ### Genesis Responsive Menus */
 
 	.genesis-responsive-menu .wrap {
@@ -1642,6 +1651,10 @@ p.entry-meta {
 	.genesis-skip-link .skip-link-hidden {
 		display: none;
 		visibility: hidden;
+	}
+
+	.menu-primary {
+		display: initial;
 	}
 
 	.menu-toggle,
@@ -1760,13 +1773,7 @@ p.entry-meta {
 	.genesis-responsive-menu .genesis-nav-menu .sub-menu .sub-menu {
 		margin: 0;
 	}
-
-	.footer-widgets-1,
-	.footer-widgets-2 {
-		margin: 0 auto 40px;
-	}
-
-}
+}	
 
 @media only screen and (max-width: 860px) {
 
